@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sit.int320.ec.list;
+
+import java.util.List;
+import java.util.Random;
+
+/**
+ *
+ * @author INT320
+ */
+public class TestList {
+
+    public static void main(String args[]) {
+//        List<Integer> list = new SimpleArrayList();
+        List<Integer> list = new DoubleLinkedList();
+        
+        Random r = new Random();
+//        list.add(100);
+        for (int i = 0; i < 5; i++) {
+            list.add(r.nextInt(1000));
+        }
+        for (int i = 0; i < list.size(); i++) {
+            System.out.printf("%3d%s", list.get(i), ((i + 1) % 10 == 0 ? "\n" : "\t"));
+
+        }
+//        System.out.println(list.size());
+    }
+
+}
