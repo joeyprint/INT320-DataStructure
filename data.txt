@@ -1,0 +1,16 @@
+Using the IDE Help System
+Press F1 in any part of the IDE to open a help topic that is specific to the task you are doing or where you are in the IDE.
+Searching the Online Help
+To perform a full-text search of all IDE F1 help topics, click the Search tab and type a keyword in the Find text box.
+Online Tutorials
+For tutorials on using NetBeans IDE, visit the following link:
+It’s been 99 years since an total eclipse crossed the width the United States.
+This year, the 65-mile wide path of totality with sweep, sash-like, across
+the country—entering the map at Oregon and exiting at South Carolina.
+The once-in-a-lifetime spectacle will attract an estimated 7.4 million
+people to areas in the path of totality, including so-called eclipse-chasers, 
+who plan for years in advance and travel from far and wide to get a glimpse of the stellar phenomenon.
+No matter where you are in the country, if you plan to look at or even
+toward the sun, be sure to protect your eyes. According to experts, 
+only those in the path of totality are safe to look at the eclipse without 
+protection, and only during totality.
