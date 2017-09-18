@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sit.int320.ec.dao;
 
 import java.sql.Connection;
@@ -15,14 +10,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import sit.int320.ec.model.Product;
 
-/**
- *
- * @author INT320
- */
 public class ProductDAO {
 
-    private final static String FIND_BY_DESC = "SELECT p.* , pc.description as PRODUCT_TYPE "
-            + "FROM PRODUCT p, PRODUCT_CODE pc WHERE p.PRODUCT_CODE = pc.PROD_CODE AND "
+    private final static String FIND_BY_DESC = "SELECT p.*, pc.description as PRODUCT_TYPE "
+            + "FROM PRODUCT p, PRODUCT_CODE pc "
+            + "WHERE p.PRODUCT_CODE = pc.PROD_CODE AND "
             + "(p.DESCRIPTION LIKE ? OR pc.DESCRIPTION LIKE ?)";
     public static List<Product> findByDesc(String key) {
         List<Product> products = null;
@@ -45,8 +37,6 @@ public class ProductDAO {
         } catch (SQLException ex) {
             System.err.println(ex);
         }
-
         return products;
     }
-
 }

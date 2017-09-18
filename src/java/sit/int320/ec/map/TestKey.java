@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sit.int320.ec.map;
 
 import java.util.HashMap;
@@ -12,10 +7,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.TreeMap;
 
-/**
- *
- * @author INT320
- */
 public class TestKey {
 
     public static final void main(String args[]) {

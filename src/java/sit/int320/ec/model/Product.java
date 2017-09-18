@@ -1,18 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sit.int320.ec.model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import sit.int320.ec.dao.ProductDAO;
 
-/**
- *
- * @author INT320
- */
 public class Product extends ProductDAO {
 
     private int productId;

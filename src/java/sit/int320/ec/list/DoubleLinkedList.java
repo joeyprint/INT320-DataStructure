@@ -1,23 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sit.int320.ec.list;
 
 import java.util.AbstractSequentialList;
 import java.util.ListIterator;
 
-/**
- *
- * @author INT320
- */
 public class DoubleLinkedList<E> extends AbstractSequentialList<E> {
 
     Node<E> first;
     Node<E> last;
     int size;
-    
     
     private void linkLast(E e) {
         final Node<E> l = last;
@@ -38,7 +28,7 @@ public class DoubleLinkedList<E> extends AbstractSequentialList<E> {
 
     @Override
     public ListIterator<E> listIterator(int index) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sit.int320.ec.map;
 
 import java.io.File;
@@ -15,10 +10,6 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 
-/**
- *
- * @author INT320
- */
 public class WordFrequency {
 
 //    Map<String, Integer> words = new HashMap();
