@@ -1,6 +1,6 @@
 package sit.int320.ec.trymyself;
 
-public class InsectionSortDemo {
+public class InsertionSortDemo {
 
     public static void insertionSort(int array[]) {
         int n = array.length;
